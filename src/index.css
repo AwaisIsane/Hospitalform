@@ -11,3 +11,135 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main-form {
+  background-color: white;
+  padding: 45px 100px;
+}
+.hed {
+  padding: 10px 0px;
+}
+.centre-body {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  height: 100vh;
+}
+
+.checkox-input {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+}
+
+label {
+  font-size: large;
+}
+
+.repeatsL {
+  padding-right: 47px;
+  padding-left: 10px;
+}
+
+.shiftL {
+  padding-left: 10px;
+  padding-right: 65px;
+}
+.selectele {
+  width: 400px;
+  height: 30px;
+  border:none;
+  background-color: white;
+  border-bottom:1px solid;
+  font-size: large;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+
+.timeele {
+  height: 30px;
+  width: 400px;
+  border:none;
+  background-color: white;
+  border-bottom: 1px solid;
+  font-size: large;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+
+.dateele {
+
+  height: 30px;
+  width: 400px;
+  border:none;
+  background-color: white;
+  border-bottom: 1px solid;
+  font-size: large;
+}
+
+.checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  
+}
+
+.checkbox-round:checked {
+  background-color: rgb(7, 7, 7);
+}
+
+.checkcent {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+
+}
+
+.cckcn {
+  border-style: solid;
+  padding: 20px;
+  margin: 10px;
+}
+.checkbox-container {
+  padding: 5px 10px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sttime {
+padding-right: 23px;
+padding-left: 10px;
+}
+
+.ettime {
+  padding-right: 30px;
+  padding-left: 12px;
+}
+
+.checkweek {
+  display:flex; flex-direction:row;
+}
+
+.buttoncl {
+  border-radius: 50px;
+  background-color: rgb(105, 105, 240);
+  height: 50px;
+  float: right;
+}
+
+.weekdaL {
+  font-size: 20px;
+}
