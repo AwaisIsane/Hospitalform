@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-const Tablerow = ({date,starttime,endtime,shift,repeats}) =>{
+const Tablerow = ({date,starttime,endtime,shift,repeats,days}) =>{
 return(
     <tr>
         <td>{date}</td>
@@ -8,6 +8,7 @@ return(
         <td>{endtime}</td>
         <td>{shift}</td>
         <td>{repeats}</td>
+        <td>{days.map(e => <i key={e}>{e},</i>)}</td>
     </tr>
 )
 }
@@ -30,6 +31,7 @@ const Display = (props) =>{
           <th>end time</th>
           <th>Shift</th>
           <th>repeats</th>
+          <th>days</th>
           </tr>
           {formds.map((e,i) => <Tablerow {...e} key={i} />)}
       </tbody>
